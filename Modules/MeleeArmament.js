@@ -96,7 +96,7 @@ export default class MeleeArmament {
                 // Handle other attributes
                 newLi.innerText += ` ${weapon[attribute]}`;
             }
-    
+
             specsList.appendChild(newLi);
         });
     }
@@ -107,5 +107,8 @@ export default class MeleeArmament {
         weaponImage.src = (weapon.imageSrc);
     }
 
-    
+    static createWeaponBox(a, b) {
+        let container = document.createElement()
+        container.appendChild(a, b)
+    }
 }

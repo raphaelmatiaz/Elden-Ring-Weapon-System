@@ -1,11 +1,10 @@
 import Axe from "../../Modules/Axe.js"
 
-
-let HandAxe = new Axe( 
-"Hand Axe",           // name
+let CelebrantsCleaver = new Axe (
+"Celebrant's Cleaver",           // name
 "Axe",                // type
 "Slash",               // attackType
-"Quickstep",           // skill
+"Wild Strikes",           // skill
 3,                    // fpCost
 20,                    // staCost
 3.5,                     // weight
@@ -35,9 +34,9 @@ true,                  // onlineTrade
   arc: 0
 },
 [],  // passiveEffects
-"../Images/hand_axe.webp" //img Link
+"../Images/celebrants_cleaver.png" //img Link
 );
 
 
 
-export default HandAxe; //export the instance of Hand Axe 
+export default CelebrantsCleaver; //export the instance of Hand Axe 

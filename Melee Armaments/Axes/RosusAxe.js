@@ -1,15 +1,15 @@
 import Axe from "../../Modules/Axe.js"
 
 
-let HandAxe = new Axe( 
-"Hand Axe",           // name
+let RosusAxe = new Axe( 
+"Rosu's Axe",           // name
 "Axe",                // type
 "Slash",               // attackType
-"Quickstep",           // skill
+"Rosu's Summons",           // skill
 3,                    // fpCost
 20,                    // staCost
 3.5,                     // weight
-100,                   // sellPrice
+200,                   // sellPrice
 true,                  // onlineTrade
 {                      // attackPower
   physical: 117,
@@ -35,9 +35,9 @@ true,                  // onlineTrade
   arc: 0
 },
 [],  // passiveEffects
-"../Images/hand_axe.webp" //img Link
+"../Images/rosus_axe.png" //img Link
 );
 
 
 
-export default HandAxe; //export the instance of Hand Axe 
+export default RosusAxe; //export the instance of Hand Axe 

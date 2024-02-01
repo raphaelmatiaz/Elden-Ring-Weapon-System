@@ -1,8 +1,7 @@
 import Axe from "../../Modules/Axe.js"
 
-
-let HandAxe = new Axe( 
-"Hand Axe",           // name
+let ForkedHatchet = new Axe (
+"Forked Hatchet",           // name
 "Axe",                // type
 "Slash",               // attackType
 "Quickstep",           // skill
@@ -35,9 +34,9 @@ true,                  // onlineTrade
   arc: 0
 },
 [],  // passiveEffects
-"../Images/hand_axe.webp" //img Link
+"../Images/forked_hatchet.webp" //img Link
 );
 
 
 
-export default HandAxe; //export the instance of Hand Axe 
+export default ForkedHatchet; //export the instance of Hand Axe 
