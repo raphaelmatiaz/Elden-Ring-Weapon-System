@@ -1,4 +1,4 @@
-import MeleeArmament from "./Modules/MeleeArmaments.js";
+import MeleeArmament from './MeleeArmament.js';
 
 export default class Flail extends MeleeArmament {
     constructor(type, name, attackType, skill, fpCost, staCost, weight, sellPrice, onlineTrade, attackPower, guardedDamageNegation, attributesRequired, passiveEffects) {

@@ -1,4 +1,4 @@
-import Axe from "./Modules/Axe.js"
+import Axe from "../../Modules/Axe.js"
 
 
 const HandAxe = new Axe( 
