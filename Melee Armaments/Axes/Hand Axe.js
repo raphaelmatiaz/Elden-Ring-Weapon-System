@@ -2,8 +2,8 @@ import Axe from "../../Modules/Axe.js"
 
 
 const HandAxe = new Axe( 
-"Axe",                // type
 "Hand Axe",           // name
+"Axe",                // type
 "Slash",               // attackType
 "Quickstep",           // skill
 3,                    // fpCost
@@ -34,7 +34,10 @@ true,                  // onlineTrade
   fth: 0,
   arc: 0
 },
-[]  // passiveEffects
+[],  // passiveEffects
+"../Images/hand_axe.webp" //img Link
 );
+
+
 
 export default HandAxe; //export the instance of Hand Axe 
